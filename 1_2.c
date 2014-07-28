@@ -3,7 +3,7 @@
 
 int main()
 {
-	const int busy_time = 10;		// 10ms
+	const int busy_time = 5;		// 10ms
 	const int idle_time = busy_time;//same ration will lead to 50% cpu usage
 
 	int start_time = 0;
